@@ -1,0 +1,122 @@
+*{
+    font-family: "Cairo", sans-serif;
+}
+h2{
+    text-align: center;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+.section{
+    padding-top: 4px 12px;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 50px;
+    align-items: center;
+    
+
+}
+.logo{
+    margin-left: 15px;
+}
+nav{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+nav>span{
+    color: #7fad39;
+    font-weight: bold;
+    
+    margin-left: 80px;
+}
+.child{
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content:center;
+    position: relative;
+
+
+
+}
+.icon-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-left: auto;
+}
+.item_text{
+    text-align: center;
+}
+.button{
+    background-color: #7fad39;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 180px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.button:hover{
+    color: #fff;
+}
+.item_text>h5{
+    font-size: 20px;
+}
+.price{
+    position: absolute;
+    background-color: #7fad39;
+    color: #fff;
+    width: 30px;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 12px;
+    top: 3px;
+    padding: 3px 12px;
+    right: 0;
+}
+
+
+.pic_hover:hover{
+  position: absolute;
+  margin-top: 190px;
+  display: inline;
+
+
+}
+.notification {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  
+  
+  .notification .badge {
+    position: absolute;
+    top: 2px;
+    right: 11px;
+    padding: 1px 5px;
+    border-radius: 50%;
+    background: #7fad39;
+    color: white;
+  }
+
