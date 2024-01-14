@@ -15,6 +15,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    margin-left: 20px;
 
 }
 
@@ -41,7 +42,7 @@ nav{
 nav>span{
     color: #5d6156;
     font-weight: bold;    
-    margin-left: 80px;
+    margin-left: 60px;
 }
 nav>span:hover{
     color: #7fad39;
@@ -50,13 +51,15 @@ nav>span:hover{
 .child{
     width: 200px;
     border: 1px solid #5d6156;
-    
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 15px;
     justify-content:center;
     position: relative;
 }
 .icon-button{
    
+    
     justify-content: right;
     margin-left: 10%;
 }
@@ -118,4 +121,17 @@ nav>span:hover{
     background: #7fad39;
     color: white;
   }
-
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+     
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7fad39; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5d6156; 
+  }
