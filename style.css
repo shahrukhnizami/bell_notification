@@ -29,9 +29,11 @@ h2{
     width: 100%;
     top: 0;
     justify-content: space-between;
+    z-index: 1;
+    background-color: #fff;
 }
 .logo{
-    margin-left: 20px;
+    margin-left: 40px;
    
 }
 nav{
@@ -58,8 +60,7 @@ nav>span:hover{
     position: relative;
 }
 .icon-button{
-   
-    
+      
     justify-content: right;
     margin-left: 10%;
 }
